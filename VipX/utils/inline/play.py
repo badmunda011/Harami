@@ -257,7 +257,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/PunjabiChat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -523,7 +523,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/its_Punjabi_Chat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -589,7 +589,7 @@ def stream_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/its_Punjabi_Chat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -652,7 +652,7 @@ def telegram_markup(_, chat_id):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/PunjabiChat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -714,7 +714,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/its_Punjabi_Chat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -846,7 +846,7 @@ def slider_markup(
           
             InlineKeyboardButton(
 
-                text=_["P_B_1"],
+                text=_["P_B_6"],
 
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
 
@@ -854,7 +854,7 @@ def slider_markup(
 
             InlineKeyboardButton(
 
-                text=_["P_B_2"],
+                text=_["P_B_5"],
 
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
 
@@ -966,7 +966,7 @@ def queue_markup(_, videoid, chat_id):
 
             InlineKeyboardButton(
                 text=f"⛦ ᴊᴏɪɴ ⛦",
-              url="https://t.me/its_Punjabi_Chat_Group",
+              url="https://t.me/THE_DRAMA_CLUB_01",
             ),
 
 
@@ -982,3 +982,4 @@ def queue_markup(_, videoid, chat_id):
     ]
 
     return buttons
+        
