@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot,𝐀𝐥𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐍𝐚𝐦𝐞 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝.
-MUSIC_BOT_NAME = "𝄟❥AUJLA🍷𝗠𝗨𝗦𝗜𝗖⏤͟͟͞❥͜͡𝄟⃟"
+MUSIC_BOT_NAME = "🍹𝆺𝅥⃝🌸 ‌⃪‌ ᷟ🦋𝑻𝒐𝒙𝒊𝒄 ᥫ᭡𓆩𝑮𝒊𝒓𝒍 𓆪🦋☕︎"
 
 # Your User ID.
 OWNER_ID = list(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/PB65-Aujla/VIP-MUSIC",
+    "https://github.com/badmunda011/VIP-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -64,8 +64,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/World_Mania")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/its_Punjabi_Chat_Group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/BOTS_REPO_ALL_01")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP"https://t.me/THE_DRAMA_CLUB_01")
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
