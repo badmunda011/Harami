@@ -2,16 +2,16 @@ import config
 from config import PRIVATE_BOT_MODE
 from VipX.core.mongo import pymongodb
 
-channeldb = mongodb.cplaymode
-commanddb = mongodb.commands
-cleandb = mongodb.cleanmode
-playmodedb = mongodb.playmode
-playtypedb = mongodb.playtypedb
-langdb = mongodb.language
-authdb = mongodb.adminauth
-videodb = mongodb.vipvideocalls
-onoffdb = mongodb.onoffper
-autoenddb = mongodb.autoend
+channeldb = pymongodb.cplaymode
+commanddb = pymongodb.commands
+cleandb = pymongodb.cleanmode
+playmodedb = pymongodb.playmode
+playtypedb = pymongodb.playtypedb
+langdb = pymongodb.language
+authdb = pymongodb.adminauth
+videodb = pymongodb.vipvideocalls
+onoffdb = pymongodb.onoffper
+autoenddb = pymongodb.autoend
 
 
 # Shifting to memory [ mongo sucks often]
