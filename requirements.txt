@@ -13,7 +13,6 @@ psutil
 py-tgcalls==0.8.6
 pymongo==3.12.0
 pykeyboard
-pyrogram==1.4.16
 python-dotenv
 pyyaml
 requests
@@ -24,3 +23,4 @@ numpy
 yt-dlp
 youtube-search
 youtube-search-python
+git+https://github.com/KurimuzonAkuma/pyrogram@dev
