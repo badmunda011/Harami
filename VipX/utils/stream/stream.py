@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from VipX import Carbon, YouTube, app
-from VipX.core.call import Vip
+from VipX.core.call import VipXBot
 from VipX.misc import db
 from VipX.utils.database import (add_active_chat,
                                        add_active_video_chat,
