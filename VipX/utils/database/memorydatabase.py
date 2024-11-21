@@ -1,6 +1,6 @@
 import config
 from config import PRIVATE_BOT_MODE
-from VipX.core.mongo import mongodb
+from VipX.core.mongo import pymongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
