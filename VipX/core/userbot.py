@@ -15,7 +15,7 @@ clients = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            "VipXBotString1",
+            "VipString1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -23,7 +23,7 @@ class Userbot(Client):
         )
 
         self.two = Client(
-            "VipXBotString2",
+            "VipString2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -31,7 +31,7 @@ class Userbot(Client):
         )
 
         self.three = Client(
-            "VipXBotString3",
+            "VipString3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -39,7 +39,7 @@ class Userbot(Client):
         )
 
         self.four = Client(
-            "VipXBotString4",
+            "VipString4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
