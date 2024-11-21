@@ -3,7 +3,6 @@ from VipX.core.dir import dirr
 from VipX.core.git import git
 from VipX.core.userbot import Userbot
 from VipX.misc import dbb, heroku, sudo
-from aiohttp import ClientSession
 
 from .logging import LOGGER
 
@@ -33,5 +32,3 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
-
-aiohttpsession = ClientSession()
