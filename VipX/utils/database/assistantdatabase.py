@@ -1,8 +1,7 @@
 import random
 
 from VipX import userbot
-from VipX.core.mongo import mongodb
-
+from VipX.core.mongo import pymongodb
 db = mongodb.assistants
 
 assistantdict = {}
