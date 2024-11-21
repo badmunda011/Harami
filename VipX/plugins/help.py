@@ -66,7 +66,6 @@ async def helper_private(
 @app.on_message(
     filters.command(HELP_COMMAND)
     & filters.group
-    & ~filters.edited
     & ~BANNED_USERS
 )
 @LanguageStart
