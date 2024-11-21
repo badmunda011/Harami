@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from VipX.core.mongo import mongodb
+from VipX.core.mongo import pymongodb
 
 from .logging import LOGGER
 
@@ -49,7 +49,7 @@ def sudo():
         for user_id in OWNER:
             SUDOERS.add(user_id)
     else:
-        sudoersdb = mongodb.sudoers
+        sudoersdb = pymongodb.sudoers
         sudoers = sudoersdb.find_one({"sudo": "sudo"})
         sudoers = [] if not sudoers else sudoers["sudoers"]
         for user_id in OWNER:
@@ -78,4 +78,4 @@ def heroku():
             except BaseException:
                 LOGGER(__name__).warning(
                       f"🏓𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝 𝐇𝐞𝐫𝐨𝐤𝐮 𝐀𝐩𝐢 𝐊𝐞𝐲 𝐀𝐧𝐝 𝐇𝐞𝐫𝐨𝐤𝐮 𝐀𝐩𝐩 𝐍𝐚𝐦𝐞 𝐂𝐨𝐫𝐫𝐞𝐜𝐭...🙃 "
-                )
+                ) a 
