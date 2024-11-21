@@ -26,7 +26,9 @@ if config.MONGO_DB_URI is None:
     _mongo_async_ = _mongo_client_(TEMP_MONGODB)
     _mongo_sync_ = MongoClient(TEMP_MONGODB)
     pymongodb = _mongo_sync_[username]
+    mongodb = _mongo_async_[username]
 else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
+    pymongodb = _mongo_sync_.VipX
     pymongodb = _mongo_sync_.VipX
