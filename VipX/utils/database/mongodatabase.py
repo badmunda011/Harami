@@ -2,18 +2,18 @@ from typing import Dict, List, Union
 
 from VipX.core.mongo import pymongodb
 
-queriesdb = mongodb.queries
-userdb = mongodb.userstats
-chattopdb = mongodb.chatstats
-authuserdb = mongodb.authuser
-gbansdb = mongodb.gban
-sudoersdb = mongodb.sudoers
-chatsdb = mongodb.chats
-blacklist_chatdb = mongodb.blacklistChat
-usersdb = mongodb.tgusersdb
-playlistdb = mongodb.playlist
-blockeddb = mongodb.blockedusers
-privatedb = mongodb.privatechats
+queriesdb = pymongodb.queries
+userdb = pymongodb.userstats
+chattopdb = pymongodb.chatstats
+authuserdb = pymongodb.authuser
+gbansdb = pymongodb.gban
+sudoersdb = pymongodb.sudoers
+chatsdb = pymongodb.chats
+blacklist_chatdb = pymongodb.blacklistChat
+usersdb = pymongodb.tgusersdb
+playlistdb = pymongodb.playlist
+blockeddb = pymongodb.blockedusers
+privatedb = pymongodb.privatechats
 
 
 # Playlist
