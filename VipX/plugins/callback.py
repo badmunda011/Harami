@@ -11,7 +11,7 @@ from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL,
                     MUSIC_BOT_NAME, adminlist)
 from VipX import YouTube, app
-from VipX.core.call import Vip
+from VipX.core.call import VipXBot
 from VipX.misc import SUDOERS, db
 from VipX.utils import bot_sys_stats
 from VipX.utils.database import (
