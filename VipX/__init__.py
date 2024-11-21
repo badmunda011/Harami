@@ -1,4 +1,4 @@
-from VipX.core.bot import VipXBot
+from VipX.core.bot import Vip
 from VipX.core.dir import dirr
 from VipX.core.git import git
 from VipX.core.userbot import Userbot
@@ -18,7 +18,7 @@ heroku()
 sudo()
 
 # Clients
-app = VipXBot()
+app = Vip()
 
 userbot = Userbot()
 
