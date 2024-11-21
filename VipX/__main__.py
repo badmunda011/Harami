@@ -8,7 +8,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from VipX import LOGGER, app, userbot
-from VipX.core.call import VipXBoy
+from VipX.core.call import VipXBot
 from VipX.plugins import ALL_MODULES
 from VipX.utils.database import get_banned_users, get_gbanned
 
