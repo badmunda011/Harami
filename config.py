@@ -65,7 +65,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","BOTS_REPO_ALL_01")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP"THE_DRAMA_CLUB_01")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP" ,"THE_DRAMA_CLUB_01")
 SUPPORT_HEHE = SUPPORT_GROUP
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
