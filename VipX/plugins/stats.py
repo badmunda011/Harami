@@ -14,7 +14,7 @@ from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command
 from VipX import YouTube, app
 from VipX.core.userbot import assistants
-from VipX.misc import SUDOERS, pymongodb
+from VipX.misc import SUDOERS, mongodb
 from VipX.plugins import ALL_MODULES
 from VipX.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
