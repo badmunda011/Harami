@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from VipX.core.mongo import mongodb
+from VipX.core.mongo import pymongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
